@@ -1,10 +1,47 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/clementlee/Desktop/gas_challenge/contracts/gasChallenge.sol": {
-      "lastModificationDate": 1687502721396,
-      "contentHash": "0b98a4bf7e0a70635e1f3044bf14ac0e",
+    "E:\\solidity-challenges\\gas_challenge\\contracts\\gasChallenge.sol": {
+      "lastModificationDate": 1689873600399,
+      "contentHash": "bcbd99804c51be4e5ed1b16e8b6b6a63",
       "sourceName": "contracts/gasChallenge.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "gasChallenge"
+      ]
+    },
+    "E:\\solidity-challenges\\gas_challenge\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1689787263322,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.18",
         "settings": {
@@ -30,10 +67,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        ">= 0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "gasChallenge"
+        "console"
       ]
     }
   }
